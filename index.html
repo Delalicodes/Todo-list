@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    
+
+    <div class=" ">
+      <div class="bg-white max-w-lg shadow-2xl rounded-xl py-10 m-20 ml-96">
+        <h1 class="font font-semibold ml-10 fo">To do list</h1>
+
+        <div>
+          <form class="flex flex-row space-x-0">
+            <input
+              type="text"
+              id="inputbox"
+              placeholder="Add your Task"
+              class="border border-none rounded-lg py-3 bg-slate-300 ml-8 p-5 rounded-r-none first-letter:"
+            />
+            <button
+              class="border border-none bg-pink-500 rounded-xl px-4 py-3 text-white rounded-l-none"
+              onclick="addtask()"
+            >
+              Save
+            </button>
+          </form>
+
+          <ul class="ml-8 pt-5" id="list">
+            <li>Task one </li>
+              <li>Task two</li>
+              <li>Task three</li>
+          </ul>
+        </div>
+
+        </div>
+
+       
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html> -->
+<!-- <div class="grid place-content-center">
+      <h5 class="text-slate-400 text-4xl p-8">TASK LIST 2023</h5>
+
+      <form class="flex flex-row">
+        <input
+          type="text"
+          placeholder="What do you have planned?"
+          id="text"
+          class="border px-14 py-3 w-80 rounded-lg bg-slate-600 ml-10 text-slate-300"
+        />
+        <p id="addtask" class="mt-4 ml-10 font-semibold hover:text-red-600">Add task</p>
+      </form>
+      <h5 class=" text-2xl pt-14 pl-8 text-slate-400">Task</h5>
+      <form class="mt-7 flex flow-row ">
+        <input
+          id="text2"
+          type="text"
+          placeholder="Task"
+          class="border  py-2  rounded-lg bg-slate-600 ml-8 text-slate-300 pl-5"
+          
+        />
+        <p  class="mt-2 ml-10 font-semibold">Edit</p>
+        <p  class="mt-2 ml-10 font-semibold">Delete</p>
+      </form>
+    </div> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+      class="grid place-content-center pt-10 py-5 shadow-2xl max-w-lg rounded-lg ml-96"
+    >
+      <h1 class="text-2xl font-semibold ml-10">To-Do App</h1>
+      <div class="flex flex-row gap-0">
+        <input
+          type="text"
+          id="inputbox"
+          placeholder="Enter task"
+          class="border border-solid px-4 py-2 ml-10 rounded-lg rounded-r-none"
+        />
+        <button
+          onclick="addTask()"
+          class="border border-solid px-4 py-2 rounded-lg rounded-l-none text-white bg-red-600"
+        >
+          Add Task
+        </button>
+      </div>
+      
+        <ul id="list" class="ml-10 mt-8"></ul>
+      
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
+
+
